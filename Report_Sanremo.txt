@@ -1,0 +1,38 @@
+Ho voluto analizzare in particolar modo i dati di Sanremo a partire dall'annata nel quale sono nato, ovvero il 1996.
+Quindi come prima cosa, ho unito le colonne dei tre file Excel che avevamo a disposizione in un unico foglio. 
+Ho estrapolato, pulito e filtrato le informazioni necessarie in base alle analisi che volevo svolgere. 
+Le colonne ed i rispettivi dati che ho voluto prendere in riferimento sono le seguenti:
+- Anno 
+- Posizione_classifica
+- Interprete
+- Titolo
+- Presentatore
+- Partecipanti
+- Vincitore
+
+Come prima analisi ho voluto analizzare la frequenza dei presentatori per capire chi ha condotto più edizioni (1996-2023).
+Il tipo di grafico che ho utilizzato è un grafico a barre. 
+La metrica utilizzata per contare il numero di edizioni distinte per ciascun presentatore è COUNT(DISTINCT Anno). 
+Dall'analisi effettuata il presentatore che ha condotto maggiormente Sanremo dal 1996 al 2023 è Pippo Baudo con 5 gettoni. A ridosso con 4 presenze ci sono Fabio Fazio ed Amadeus. Chiude il podio Carlo Conti con 3 presenze.
+
+Come seconda analisi ho voluto analizzare la media dei partecipanti per ogni edizione, utilizzando la metrica Average.
+Dall'analisi effettuata i partecipanti medi che hanno partecipato per ogni edizione sono 29,3.
+
+Come terza analisi ho voluto analizzare i partecipanti che sono saliti maggiormente sul podio. 
+I due interpreti più presenti in questa classifica con 3 presenze sul podio sono Antonella Ruggiero e Marco Mengoni. 
+Antonella Ruggiero è arrivata due volte seconda (1998-1999) e terza (2005) con ben 3 presentatori diversi (Vianello, Fazio e Bonolis).
+Marco Mengoni ha vinto due edizioni (2013-2023) e terzo la prima volta che ha partecipato (2010). Anche lui sul podio con 3 presentatori diversi (Clerici, Fazio ed Amadeus).
+Seguono in questa classifica con 2 presenze sul podio:
+Elio e Le Storie Tese due volte secondi (1996-2013);
+Povia ha vinto una edizione (2009) e secondo (2006);
+Matia Bazar ha vinto una edizione (2002) e terzo (2001);
+Anna Oxa ha vinto una edizione (1999) e seconda (1997);
+Il Volo hanno vinto una edizione (2015) e terzi (2019);
+Elisa ha vinto una edizione (2001) e seconda (2022);
+Giorgia è arrivata seconda (2001) e terza (1996);
+Alexia ha vinto una edizione (2003) e seconda (2002).
+
+Come quarta ed ultima analisi ho voluto analizzare quale genere (Uomo/Donna/Gruppo/Duo Misto) avesse vinto più edizioni di Sanremo dal 1996 al 2023. 
+Per questa analisi ho voluto utilizzare un grafico a torta.
+Dall'anlisi effettuata si può evincere che hanno vinto più Uomini 14 volte (50%) rispetto alle Donne 6 volte (21.4%) in questo periodo. 
+Da evidenziare anche le 5 vittorie dei Gruppi (17.9%) e le 3 vittorie del Duo misto (10.7%).
